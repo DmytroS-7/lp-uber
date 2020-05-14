@@ -1,0 +1,228 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: relative;
+  height: 50px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: #212121;
+  z-index: 2;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.menu .menu-link {
+  font-weight: 300;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.menu .menu-item {
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+
+.menu .menu-item:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.sub-header {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  height: 74px;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* position: relative; */
+  /* z-index: 2; */
+}
+
+.sub-header .sub-header-logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 8px;
+}
+
+.sub-header .sub-header-official {
+  margin-top: 6px;
+  opacity: 0.7;
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.sub-header .sub-header-call {
+  text-align: right;
+  margin-top: 16px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.sub-header .sub-header-phone {
+  display: block;
+  text-align: right;
+  line-height: 26px;
+  font-size: 22px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.sub-header .sub-header-btn {
+  margin-top: 15px;
+  width: 172px;
+  height: 46px;
+  background-image: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  border: 3px solid rgba(0, 0, 0, 0.07);
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.promo {
+  padding: 120px 0 135px 0;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(36, 6, 6, 0.7)),
+    url("../img/bg_page_1.jpg") center center/cover no-repeat;
+  color: #fff;
+  /* transform: translateY(-74px); */
+  /* -webkit-transform: translateY(-74px);
+  -moz-transform: translateY(-74px);
+  -ms-transform: translateY(-74px);
+  -o-transform: translateY(-74px); */
+  /* z-index: 1; */
+  /* background-attachment: fixed; */
+}
+
+.promo .promo-header {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+}
+
+.promo .promo-sub-header {
+  margin-top: 22px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.promo .promo-desc {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 23px;
+}
+
+.promo .promo-btn {
+  display: block;
+  margin: 70px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  background-image: linear-gradient(0deg, #1eacc7 0%, #4ce2ff 100%);
+  border: 3px solid rgba(0, 0, 0, 0.07);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.advantages {
+  padding: 70px 0 45px 0;
+  height: 100vh;
+}
+
+.advantages .advantages-div {
+  display: flex;
+  justify-content: center;
+}
+
+.advantages .advantages-header {
+  width: 112px;
+  height: 25px;
+  background-color: #000000;
+  font-size: 11px;
+  line-height: 26px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+.advantages .advantages-sub-header {
+  margin-top: 34px;
+  text-align: center;
+  font-size: 38px;
+  line-height: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.advantages .advantages-img {
+  width: 113px;
+  height: 113px;
+  background-color: #1eacc7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.center-my {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.advantages .advantages-img-header {
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #1eacc7;
+  padding-bottom: 5px;
+}
+
+.advantages .advantages-img-desc {
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #202020;
+}
