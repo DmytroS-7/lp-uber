@@ -17,32 +17,41 @@
 			line-height: 40px
 	
 	.mobile
+		margin-top: 60px
+
 		&-item		
 			width: 300px
+	
+	.footer-mobile
+		img
+			width: 80px
+	
+	.footer-wrapper > div 
+		width: 38%
 
 @media (max-width: 991px)
 	.fixed-top
 		.menu 
 			&-item
-				padding-right: 10px
+				padding-right: 6px
 
 			&-link
 				font-size: 11px
 
 	.sub-header 
 		.sub-header-phone
-			font-size: 18px
+			font-size: 18px	
 		
 	.promo
 		.promo-header
-			font-size: 40px
+			font-size: 36px
 					
 		.promo-sub-header
-			font-size: 28px
+			font-size: 22px
 			line-height: 40px
 
 	.mobile
-		margin-top: 340px
+		margin-top: 370px
 		min-height: 800px
 
 		&-item		
@@ -53,4 +62,104 @@
 			font-size: 16px
 
 	.title
-		font-size: 30px
+		font-size: 27px
+
+	.advantages
+		.advantages-img
+			display: flex
+			flex-direction: column
+
+
+	.choice
+		.choice-img
+			width: 700px
+
+	.footer-mobile
+		img
+			width: 58px
+
+	.footer-wrapper
+		.footer-links
+			width: 350px;
+
+			.footer-links-main
+				a
+					font-size: 14px
+	
+	.footer-wrapper > div 
+		width: 48%
+
+@media (max-width: 767px)
+	.menu
+		position: fixed
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		top: 0
+		left: -100%
+		width: 70%
+		height: 100vh
+		padding: 20px 15px
+		background-color: rgba(0, 0, 0, .9)
+		transition: 0.6s all
+
+		&-active
+			left: 0
+
+		&-item
+			padding-right: 0
+			border: none
+			margin: 20px 0
+
+		.menu-link
+			font-size: 17px
+
+	nav
+		.hamburger
+			display: block
+			position: absolute
+			right: 10px
+			top: 50%
+			transform: translateY(-50%)
+			width: 25px
+			height: 12px
+
+			span
+				display: block
+				height: 2px
+				width: 100%
+				margin-bottom: 3px
+				background-color: #fff
+				transition: 0.6s all
+			
+			&-active
+				span
+					margin-bottom: -2px
+					&:nth-child(1)
+						transform: translateY(3px) rotate(-45deg)
+					&:nth-child(2)
+						display: none	
+					&:nth-child(3)
+						transform: translateY(3px) rotate(45deg)	
+
+	.xs-hidden
+		display: none
+
+	.sub-header 
+		.xs-visible
+			display: block
+		
+		.sub-header-btn
+			display: block
+			margin-top: 5px;
+			height: 35px;
+			font-size: 12px
+
+		.sub-header-phone
+			display: block
+			font-size: 14px
+			margin-top: 3px
+			color: #ffffff
+			font-weight: 400
+			text-transform: uppercase
+			text-align: center
