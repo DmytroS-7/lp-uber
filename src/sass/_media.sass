@@ -17,7 +17,7 @@
 			line-height: 40px
 	
 	.mobile
-		margin-top: 60px
+		margin-top: 20px
 
 		&-item		
 			width: 300px
@@ -43,6 +43,9 @@
 			font-size: 18px	
 		
 	.promo
+		padding: 80px 0 20px 0
+		min-height: 600px
+
 		.promo-header
 			font-size: 36px
 					
@@ -50,9 +53,7 @@
 			font-size: 22px
 			line-height: 40px
 
-	.mobile
-		margin-top: 370px
-		min-height: 800px
+	.mobile		
 
 		&-item		
 			width: 218px
@@ -62,12 +63,14 @@
 			font-size: 16px
 
 	.title
-		font-size: 27px
+		font-size: 22px
 
 	.advantages
 		.advantages-img
 			display: flex
-			flex-direction: column
+			flex-direction: column		
+			width: 100px
+			height: 100px
 
 
 	.choice
@@ -97,7 +100,7 @@
 		align-items: center
 		top: 0
 		left: -100%
-		width: 70%
+		width: 80%
 		height: 100vh
 		padding: 20px 15px
 		background-color: rgba(0, 0, 0, .9)
@@ -158,8 +161,134 @@
 		.sub-header-phone
 			display: block
 			font-size: 14px
-			margin-top: 3px
+			margin-top: 5px
 			color: #ffffff
 			font-weight: 400
 			text-transform: uppercase
 			text-align: center
+	
+	.choice
+		min-height: 800px
+
+		.choice-img
+			width: 530px
+			margin-top: 80px
+			margin-bottom: 5px
+			
+	.require 
+		padding: 40px 0 84px 0
+
+	.title
+		font-size: 19px
+	
+	.advantages 
+		.advantages-img 
+			width: 100px
+			height: 100px
+
+		.advantages-img-header
+			padding: 2px 10px 2px 10px
+
+		.advantages-img-desc
+			padding: 10px
+			font-size: 14px
+			line-height: 21px				
+
+@media (max-width: 575px)
+	header
+		height: 30px		
+
+	.sub-header
+		top: 28px
+
+	nav
+		height: 30px
+
+	.promo
+		padding-bottom: 50px
+
+		.promo-btn 
+			margin-top: 30px
+
+		.promo-header 
+			font-size: 26px
+
+		.promo-sub-header 
+			font-size: 18px
+			line-height: 26px
+			margin-top: 10px
+		
+		.promo-desc 
+			font-size: 15px
+
+	.title
+		font-size: 17px
+		line-height: 24px
+	
+	.sub-title 
+		margin-top: 20px
+		font-size: 14px
+
+	.require-title 
+		font-size: 18px
+
+	.require-list 
+		li 
+		 font-size: 14px
+		 line-height: 20px
+	
+	.sub-header 
+		.sub-header-btn
+			height: 30px
+
+	.choice-descr
+		font-size: 14px
+
+	.choice 
+		padding-bottom: 40px
+		min-height: 550px
+
+		.choice-img 
+			width: 290px
+			margin-top: 100px
+
+		.black 			
+			height: 377px
+
+	.require-block-nbm
+		margin-left: 10px
+
+	.world
+		min-height: 650px
+
+	.footer
+		min-height: 250px
+
+		.footer-wrapper
+			position: relative
+			.footer-social
+				position: absolute
+				left: 50%
+				transform: translateX(-50%)
+				top: 150px
+
+			.footer-mobile
+				position: absolute
+				left: 50%
+				transform: translateX(-50%)
+				top: 190px
+				min-width: fit-content
+				img 
+					width: 80px
+
+			.footer-links
+				position: absolute
+				left: 50%
+				transform: translateX(-50%)
+				top: 50px
+				&-main
+					justify-content: space-around
+				&-sub					
+					justify-content: space-evenly
+					a
+						font-size: 9px
