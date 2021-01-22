@@ -24,6 +24,8 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^4.1.0"
+    "gulp-sass": "^4.1.0",
+    "socket.io": "^3.1.0",
+    "yargs-parser": "^20.2.4"
   }
 }
